@@ -8,11 +8,14 @@ class ComposerStaticInit8ae31558cae19699b24ec8e571e6a174
 {
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'LBFA_Accessibility_API_Controller' => __DIR__ . '/../..' . '/classes/controller/api/class-lbfa-accessibility-api-controller.php',
+        'LBFA_Accessibility_Declaration_Shortcode' => __DIR__ . '/../..' . '/classes/shortcode/class-lbfa-accessibility-declaration-shortcode.php',
         'LBFA_Auth_API_Controller' => __DIR__ . '/../..' . '/classes/controller/api/class-lbfa-auth-api-controller.php',
         'LBFA_Base_API_Controller' => __DIR__ . '/../..' . '/classes/controller/api/class-lbfa-base-api-controller.php',
         'LBFA_Base_Shortcode' => __DIR__ . '/../..' . '/classes/shortcode/class-lbfa-base-shortcode.php',
         'LBFA_CGV_Policy_Shortcode' => __DIR__ . '/../..' . '/classes/shortcode/class-lbfa-cgv-policy-shortcode.php',
         'LBFA_Cache_API_Controller' => __DIR__ . '/../..' . '/classes/controller/api/class-lbfa-cache-api-controller.php',
+        'LBFA_Capability_API_Controller' => __DIR__ . '/../..' . '/classes/controller/api/class-lbfa-capability-api-controller.php',
         'LBFA_Config_Helper' => __DIR__ . '/../..' . '/classes/helper/class-lbfa-config-helper.php',
         'LBFA_Cookie_Policy_Shortcode' => __DIR__ . '/../..' . '/classes/shortcode/class-lbfa-cookie-policy-shortcode.php',
         'LBFA_Document_API_Controller' => __DIR__ . '/../..' . '/classes/controller/api/class-lbfa-document-api-controller.php',
