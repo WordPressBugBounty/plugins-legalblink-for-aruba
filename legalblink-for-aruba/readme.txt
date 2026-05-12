@@ -4,7 +4,7 @@ Tags: gdpr, privacy, cookie, policy, compliance
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -115,6 +115,10 @@ Yes, it can be configured for every site.
 - New: "Accessibility Widget" tab with read-only widget status, snippet preview, and local toggle to inject the widget snippet on the public site
 - New: Cookie Banner v2 support (Consent Mode V2 / IAB TCF) — automatically used when the active plan advertises it, with transparent fallback to the legacy banner otherwise
 - Improved: cache invalidation also wipes orphan transients via a wpdb fallback (previously some transients survived "Clear cache" until natural expiration)
+= 1.1.1 =
+- Fixed: the plugin admin now works on sites using "Plain" permalinks
+= 1.1.2 =
+- Fixed: language switching and other parameterized actions on "Plain" permalinks
 
 == Upgrade Notice ==
 
