@@ -3,7 +3,7 @@
         'name' => 'legalblink/legalblink-for-aruba',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '3e616f705bbc2fb1c94146f5f8121e401eec396d',
+        'reference' => '7de8adc9b3dabf4ea78e12e0f8ef1850dfe87348',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'legalblink/legalblink-for-aruba' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '3e616f705bbc2fb1c94146f5f8121e401eec396d',
+            'reference' => '7de8adc9b3dabf4ea78e12e0f8ef1850dfe87348',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
