@@ -4,8 +4,22 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8ae31558cae19699b24ec8e571e6a174
+class ComposerStaticInite899a0315ab8551ae6fd33785be7274f
 {
+    public static $prefixLengthsPsr4 = array (
+        'L' => 
+        array (
+            'LegalBlink\\Tests\\' => 17,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'LegalBlink\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'LBFA_Accessibility_API_Controller' => __DIR__ . '/../..' . '/classes/controller/api/class-lbfa-accessibility-api-controller.php',
@@ -34,7 +48,9 @@ class ComposerStaticInit8ae31558cae19699b24ec8e571e6a174
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit8ae31558cae19699b24ec8e571e6a174::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite899a0315ab8551ae6fd33785be7274f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite899a0315ab8551ae6fd33785be7274f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite899a0315ab8551ae6fd33785be7274f::$classMap;
 
         }, null, ClassLoader::class);
     }
